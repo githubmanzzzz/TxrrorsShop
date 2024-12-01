@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Txrror Tools</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h2 {
+            font-size: 2rem;
+        }
+        .hero button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: white;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: #222;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Txrror Tools</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Your Go-To Store for Reliable Tools</h2>
+        <button onclick="location.href='#products'">Shop Now</button>
+    </section>
+
+    <section class="products" id="products">
+        <div class="product">
+            <h3>Tool Name 1</h3>
+            <p>High-quality tool description.</p>
+            <p><strong>$99.99</strong></p>
+        </div>
+        <div class="product">
+            <h3>Tool Name 2</h3>
+            <p>Durable and efficient.</p>
+            <p><strong>$149.99</strong></p>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Txrror Tools is dedicated to providing top-notch tools for every professional and DIY enthusiast.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: rando3659@gmail.com</p>
+        <p>Phone: +1 (501)764-2435</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Txrror Tools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
